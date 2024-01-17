@@ -1,0 +1,1 @@
+cmd_/home/lucas/gpio-driver/gpio-driver.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/arm64/module.lds -o /home/lucas/gpio-driver/gpio-driver.ko /home/lucas/gpio-driver/gpio-driver.o /home/lucas/gpio-driver/gpio-driver.mod.o;  true
